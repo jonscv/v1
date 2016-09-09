@@ -129,7 +129,7 @@ HEADING
   }*/
 
 
-#title{
+h1.banner  {
       display: block;
       font-family: 'Changa One', sans-serif;
       font-size: 1.75em;
@@ -141,8 +141,9 @@ HEADING
       padding: 15px 10px 15px 10px;
       width: 10px auto;
       border: 10px dotted;
-      max-width: 80%;
+      margin-bottom: ;
       }
+
 
 
   /*h1, #h1body {
@@ -412,7 +413,9 @@ nav a.selected, nav a:hover {
 Forms
 ************************************/
 
-
+div .container-form {
+  al
+}
 
 
 form {
