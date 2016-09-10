@@ -39,21 +39,13 @@ body {
   font-family: 'Open Sans', sans-serif;
 }
 
-*/
-div .table  {
-    display: block;
-    float:left;
-    max-width: 100%;
-    margin-top: 80px;
-    clear:both;
-    margin-left: 5%;
-  }
-    /*  #<!-- the margin is the remaining pixels eitherside of 940px.used
+#wrapper  {
+    max-width: 940px;
+    margin: 0px auto; /*  #<!-- the margin is the remaining pixels eitherside of 940px.used
       #to keep image consistent across screen sizes-->
     padding: 0px;
   }
 
-/*--
 .primary {
   display: block;
   float: left;
@@ -135,7 +127,6 @@ HEADING
     text-align: center;
     margin: 0;
   }*/
-
 
 
 h1.banner  {
@@ -306,23 +297,22 @@ footer {
 PAGE: PORTFOLIO
 ***********************************/
 
-ul, #gallery {
-  margin: 10px;
-  padding: 2%;
+#gallery {
+  margin: 0;
+  padding: 0;
   list-style: none;
 }
 
 #gallery li {
   float: left;
-  width: 20%;
-  height: 15%;
+  width: 45%;
   margin: 2.5%;
   background-color: #a4a3a3;
   color: #bdc3c7;
 }
 
 #gallery li a p {
-  margin: 10px;
+  margin: 0;
   padding: 5%;/* use padding rather than margin to keep text aligned. margin will
   shift text outside of cell whereas padding will keep it within the cell.*/
   font-size: 0.75em;
@@ -528,33 +518,4 @@ label.light {
     max-width: 480px;
   }
 
-}
-/*..........................................
---IMAGE GALLERY--
-..........................................*/
-
-div.img {
-    margin: 5px;
-    border: 1px solid #ccc;
-    float: left;
-    width: 180px;
-}
-
-div.img:hover {
-    border: 1px solid #777;
-}
-
-div.img img {
-    width: 100%;
-    height: auto;
-}
-
-div.desc {
-    padding: 15px;
-    text-align: center;
-}
-
-div.left_text {
-    margin-left: 5%;
-    font-size: 1em;
 }
